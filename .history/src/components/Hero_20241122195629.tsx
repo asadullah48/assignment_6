@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="container mx-auto px-4 pb-16 flex flex-col md:flex-row items-center">
+    <section className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center">
       <div className="flex-1 space-y-6 text-center md:text-left">
         <h2 className="text-5xl font-bold text-gray-800 leading-tight w-full md:w-[600px]">
           Learn new skills online with ease
@@ -28,7 +28,7 @@ const Hero = () => {
           alt="Learning"
           width={700}
           height={900}
-          className="object-cover mx-auto rounded-lg shadow-lg"
+          className="object-coverrounded-lg shadow-lg"
         />
       </div>
     </section>
